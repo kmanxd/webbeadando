@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Uno Játék</title>
+</head>
+<body>
+    <div id="winner-overlay">
+        <h2 id="winner"></h2>
+    </div>
+    <div id="game">
+        <div id="playerbox">
+            <div class="player" id="player">
+                <h2 id="playerh2">Player</h2>
+                <div class="hand" id="player-hand">
+                </div>
+            </div>
+            <div class="player-controls">
+                <button id="control-button">
+                    <img src="img/unologo.png" id="gombkep" alt="UNO Logo">
+                </button>
+            </div>
+        </div>
+        <div id="pile">
+            <div id="discard">
+                <h2 id="semmi">.</h2>
+                <div id="discard-pile">
+                </div>
+            </div>
+            <div id="draw">
+                <h2>Húzópakli</h2>
+                <div id="draw-pile"> 
+                </div>
+            </div>
+        </div>
+        <div class="player" id="opponent">
+            <h2 id="opponenth2">Opponent</h2>
+            <div class="hand" id="opponent-hand">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
